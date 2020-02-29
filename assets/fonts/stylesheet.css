@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: url('SofiaPro-UltraLight.eot');
+    src: url('SofiaPro-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-UltraLight.woff2') format('woff2'),
+        url('SofiaPro-UltraLight.woff') format('woff'),
+        url('SofiaPro-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Black.eot');
+    src: url('SofiaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Black.woff2') format('woff2'),
+        url('SofiaPro-Black.woff') format('woff'),
+        url('SofiaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaProRegular.eot');
+    src: url('SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProRegular.woff2') format('woff2'),
+        url('SofiaProRegular.woff') format('woff'),
+        url('SofiaProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('SofiaPro-SemiBold.eot');
+    src: url('SofiaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-SemiBold.woff2') format('woff2'),
+        url('SofiaPro-SemiBold.woff') format('woff'),
+        url('SofiaPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Medium.eot');
+    src: url('SofiaPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Medium.woff2') format('woff2'),
+        url('SofiaPro-Medium.woff') format('woff'),
+        url('SofiaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro-Light.eot');
+    src: url('SofiaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro-Light.woff2') format('woff2'),
+        url('SofiaPro-Light.woff') format('woff'),
+        url('SofiaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

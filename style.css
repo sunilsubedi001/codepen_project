@@ -1,0 +1,129 @@
+﻿/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display:block;}
+a:hover {text-decoration:none;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse:collapse; border-spacing:0;}
+a:focus {outline:none; text-decoration:none;}
+.clear {clear:both; content:"."; display:block; height:0; visibility:hidden;}
+strong {font-weight:bold;}
+::-ms-clear { display: none; }
+.no-padding {padding: 0 !important;}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+/******************* Custom Fonts *********************/
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('assets/fonts/SofiaProRegular.eot');
+    src: url('assets/fonts/SofiaProRegular.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SofiaProRegular.woff2') format('woff2'), url('assets/fonts/SofiaProRegular.woff') format('woff'), url('SofiaProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro Semi';
+  src: url('assets/fonts/SofiaPro-SemiBold.eot');
+  src: url('assets/fonts/SofiaPro-SemiBold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SofiaPro-SemiBold.woff2') format('woff2'), url('assets/fonts/SofiaPro-SemiBold.woff') format('woff'), url('assets/fonts/SofiaPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Medium';
+    src: url('assets/fonts/SofiaPro-Medium.eot');
+    src: url('assets/fonts/SofiaPro-Medium.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SofiaPro-Medium.woff2') format('woff2'), url('assets/fonts/SofiaPro-Medium.woff') format('woff'), url('assets/fonts/SofiaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro Light';
+  src: url('assets/fonts/SofiaPro-Light.eot');
+  src: url('assets/fonts/SofiaPro-Light.eot?#iefix') format('embedded-opentype'), url('assets/fonts/SofiaPro-Light.woff2') format('woff2'), url('assets/fonts/SofiaPro-Light.woff') format('woff'), url('assets/fonts/SofiaPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/******************* End Custom Fonts *********************/
+
+body {padding-top: 77px; color: #1b4049; font-family: 'Sofia Pro'; font-size: 16px;overflow-y: auto;
+  overflow-x: hidden;}
+a {transition: all 0.2s linear;}
+
+/******** Header *******/
+.header .logo { padding: 28px 0; position: relative; z-index: 5; display: inline-block; left: 90px;}
+.header .logo-img { color: #fff; }
+
+.header .navbar-inverse { margin: 0px; font-size: 16px; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); border: 0px none; z-index: 99992;}
+
+.header .top-nav ul li { font-family: 'Sofia Pro';}
+.header .top-nav ul li a { color: #9CACB0; font-family: 'Sofia Pro'; padding: 7px 19px 10px; font-size:18px; position: relative;}
+
+.header .navbar-inverse { background: #1b4049; box-shadow: none; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);}
+.navbar-collapse .close-icon { display: none;}
+.header .top-nav { margin: 21px 98px 0 0;}
+.header .top-nav ul {float: right;}
+/******** Header *******/
+
+.portfolio-section .portfolio-content { background: #39b54a;}
+.portfolio-section .portfolio-content .own-details { text-align: center; padding: 50px 0;}
+.portfolio-section .img-section img { width: 400px; height: 400px; object-fit: cover;}
+.portfolio-section .block-desc { max-width: 500px; margin: 0 auto; padding: 20px 0;}
+.portfolio-section .block-desc span { font-size: 20px; line-height: 30px; color: #fff;}
+.portfolio-section i.fa.fa-star { color: #fff; background: #39b54a; z-index: 9; position: relative; padding: 0 6px;}
+.portfolio-section .border { color: #fff; border-bottom: 2px solid #fff; width: 70px; height: 2px; display: block; position: relative; right: -47%; bottom: 10px;}
+.portfolio-section .desg { font-size: 18px; color: #fff; padding: 20px 0 0 ; }
+
+.portfolio-section .port-details { padding: 50px 0;}
+.portfolio-section .desc-img img { width: 350px; height: 150px; object-fit: cover;}
+.portfolio-section .desc-top { text-align: center;}
+.portfolio-section .details-part { padding: 30px 0 0;}
+.portfolio-section .block-title { font-size: 20px; font-family: 'Sofia Pro Semi'; padding: 0 0 15px;}
+.portfolio-section .port-details i.fa.fa-star { color: #000; background: #fff; z-index: 9; position: relative; padding: 0 6px;}
+.portfolio-section .port-details .border { color: #fff; border-bottom: 2px solid #000; width: 70px; height: 2px; display: block; position: relative; right: -47%; bottom: 10px;}
+.portfolio-section .title { font-size: 18px; font-family: 'Sofia Pro Semi'; color: #39b54a; padding: 0 0 5px;}
+.portfolio-section .title-desc { color: #000; font-family: 'Sofia Pro Medium'; font-size: 16px; padding: 10px 0;}
+.portfolio-section .para-desc p { font-family: 'Sofia Pro Light'; line-height: 20px; color: #000; max-width: 500px;}
+
+.portfolio-section .about-section { padding: 50px 0;}
+.portfolio-section .about-info { max-width: 900px; margin: 0 auto; padding: 30px 0 0;}
+.portfolio-section .about-list { font-family: 'Sofia Pro Light'; line-height: 20px; color: #000;}
+
+.portfolio-section .contact-section { text-align: center; }
+.portfolio-section .email-sec { padding: 10px 0; font-size: 16px; }
+
+.footer .footer-block {  background: #1b4049; padding: 50px 0; text-align: center;}
+.footer .footer-block  span { color: #fff; display: block;} 
+.footer .footer-block .my-place { padding: 10px 0 0; }
+.footer .footer-block i.fa { color: #fff; font-size: 20px; padding: 13px 0 0; border: 1px solid #fff; display: block; border-radius: 100px; float: left; position: relative; width: 50px; height: 50px; margin: 0 7px 0 0;}
+.footer .footer-block .social { position: absolute; right: 27%; top: 35px; }
